@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SisterBirthdaySpecial/static/css/main.b7ee3389.css",
-    "main.js": "/SisterBirthdaySpecial/static/js/main.2e418d8e.js",
+    "main.js": "/SisterBirthdaySpecial/static/js/main.84a98ce9.js",
     "static/js/453.ca5bff4f.chunk.js": "/SisterBirthdaySpecial/static/js/453.ca5bff4f.chunk.js",
     "static/media/slick.svg": "/SisterBirthdaySpecial/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SisterBirthdaySpecial/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/SisterBirthdaySpecial/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SisterBirthdaySpecial/index.html",
     "main.b7ee3389.css.map": "/SisterBirthdaySpecial/static/css/main.b7ee3389.css.map",
-    "main.2e418d8e.js.map": "/SisterBirthdaySpecial/static/js/main.2e418d8e.js.map",
+    "main.84a98ce9.js.map": "/SisterBirthdaySpecial/static/js/main.84a98ce9.js.map",
     "453.ca5bff4f.chunk.js.map": "/SisterBirthdaySpecial/static/js/453.ca5bff4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7ee3389.css",
-    "static/js/main.2e418d8e.js"
+    "static/js/main.84a98ce9.js"
   ]
 }
