@@ -1,0 +1,92 @@
+.real-giftbox {
+  position: relative;
+  width: 200px;    /* fixed width */
+  height: 250px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 20px;
+  user-select: none;
+}
+
+.gift-box-base {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.gift-box-lid {
+  width: 100%;
+  position: absolute;
+  bottom: 148px; /* pull lid 8px down to cover gap */
+  left: 0;
+  z-index: 2;
+  transform-origin: bottom center;
+}
+
+.gift-popup {
+  position: absolute;
+  bottom: 100%;              /* above the box */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 15px;       /* gap */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  max-width: 250px;
+  box-sizing: border-box;
+  background: transparent;
+  pointer-events: auto;
+  max-width: calc(100vw - 40px);
+  /* add transition for smooth adjustment */
+  transition: bottom 0.3s ease;
+}
+
+
+/* keep message styling as before */
+.gift-message {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  width: 200%;
+  box-sizing: border-box;
+}
+
+
+
+
+.gift-character {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.gift-message h3 {
+  margin: 0;
+  color: #e91e63;
+}
+
+.gift-message p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.gift-message button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e91e63;
+  color: white;
+  cursor: pointer;
+}
+
+

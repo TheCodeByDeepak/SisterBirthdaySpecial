@@ -1,0 +1,45 @@
+.speech-bubble {
+  max-width: 220px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 20px;
+  position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.speech-bubble.you {
+  background-color: #e91e63;
+  color: white;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.speech-bubble.you::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-right-color: #e91e63;
+}
+
+.speech-bubble.karishma {
+  background-color: #f8bbd0;
+  color: #880e4f;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+
+.speech-bubble.karishma::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-left-color: #f8bbd0;
+}
