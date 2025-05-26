@@ -8,7 +8,7 @@ A fun, personalized birthday web app built with React to surprise my sister **Ka
 
 ## 🔗 Live Preview
 
-**👉 [Sister Birthday Special](https://TheCodeByDeepak.github.io/SisterBirthdaySpecial)**
+👉 **[Sister Birthday Special](https://TheCodeByDeepak.github.io/SisterBirthdaySpecial)**
 
 ---
 
