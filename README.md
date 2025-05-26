@@ -1,4 +1,4 @@
-# 🎉 Birthday Surprise for Karishma 🎁
+# 🎉 Birthday Surprise for Karishma Didi 🎁
 
 A fun, personalized birthday web app built with React to surprise my sister **Karishma** on her special day!
 
@@ -8,7 +8,7 @@ A fun, personalized birthday web app built with React to surprise my sister **Ka
 
 ## 🔗 Live Preview
 
-**[Sister Birthday Special](https://TheCodeByDeepak.github.io/SisterBirthdaySpecial)**
+**👉 [Sister Birthday Special](https://TheCodeByDeepak.github.io/SisterBirthdaySpecial)**
 
 ---
 
